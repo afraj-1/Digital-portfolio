@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Therapy AI</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Therapy AI Website</h1>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h2>How This Works</h2>
+            <p>Our website offers moral and therapeutic advice through AI. Simply answer a few questions, and our AI will provide thoughtful and helpful responses.</p>
+            <button id="startButton">Get Started</button>
+        </section>
+
+        <section class="consent" id="consent" style="display: none;">
+            <h2>We Need Your Permission</h2>
+            <p>Would you like to receive moral and therapeutic advice?</p>
+            <button id="acceptButton">Yes, I Accept</button>
+            <button id="declineButton">No, Thank You</button>
+        </section>
+
+        <section class="chat" id="chat" style="display: none;">
+            <div id="chatWindow">
+                <p id="aiResponse">Hi, I'm your therapy assistant! What's your name?</p>
+            </div>
+            <input type="text" id="userInput" placeholder="Ask me anything..." />
+            <button id="sendButton">Send</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>Therapy AI - Designed for Gen Z</p>
+    </footer>
+</body>
+</html>
