@@ -127,3 +127,37 @@ footer {
     padding: 15px;
     margin-top: 20px;
 }
+h2 {
+    text-align: center;
+}
+h3 {
+    text-align: center; /* Centers the heading */
+}
+
+ul {
+    list-style-type: disc; /* Ensures bullet points are visible */
+    text-align: left; /* Aligns the list items to the left */
+    margin: auto; /* Centers the list if needed */
+    width: fit-content; /* Keeps list width as per content */
+    padding-left: 20px; /* Adds spacing from the left */
+}
+#resume {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.resume-btn {
+    display: inline-block;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.resume-btn:hover {
+    background-color: #555;
+}
+
