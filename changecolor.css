@@ -1,0 +1,13 @@
+body {
+    background-color: aqua;
+}
+
+
+
+.bg{
+    background-color: palevioletred;
+    border-radius: 30px;
+    text-align: center;
+    padding: 15px;
+    top:20px;
+}
